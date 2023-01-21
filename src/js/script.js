@@ -90,14 +90,40 @@ let fruits = [
     "gooseberry",
     "rambutan",
   ];
+//   const search = fruits.indexOf('kiwi');
+//   const element = fruits[search];
+//   console.log(`I like ${element}`);
 
-  if (search <= 0){
-    console.log(`Помилка`);
-   
- 
-  }else{
-    const search = fruits.indexOf('kiwi');
-    const element = fruits[-1];
-    console.log(`I like ${element}`);
-  }   
- 
+
+// //   console.log(fruits);
+// let counter = fruits.length;
+// while (counter > 0){
+//     console.log(fruits[counter]);
+//     counter--;
+// }
+// console.log(fruits);
+
+let familyList = [
+    {
+      name: "John Doe",
+      age: 25,
+    },
+    {
+      name: "Jane Doe",
+      age: 24,
+    },
+    {
+      name: "Jack Doe",
+      age: 18,
+    },
+  
+    {
+      name: "Janifer Doe",
+      age: 14,
+    },
+    {
+      name: "Sem Doe",
+      age: 24,
+    },]
+  console.log(familyList[0].name, familyList[0].age);
+  
