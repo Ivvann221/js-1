@@ -121,20 +121,20 @@
 
 // 4.
 
-let year = prompt("Введіть рік");
-if(year > 0){
-  if(year % 4 == 0 && year % 100 != 0 ){
-    alert("Високосний")
-  }else{
-    alert("Не високосний")
-  }
-}else{
-  alert("Помилка")
-}
+// let year = prompt("Введіть рік");
+// if(year > 0){
+//   if(year % 4 == 0 && year % 100 != 0 ){
+//     alert("Високосний")
+//   }else{
+//     alert("Не високосний")
+//   }
+// }else{
+//   alert("Помилка")
+// }
 
 // 5
 
-// let years = prompt("Введіть рік");
+ let years = prompt("Введіть пяти роздярне число");
 
 
 
