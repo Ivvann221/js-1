@@ -1326,15 +1326,9 @@ let posts = [
   }
 ]
 
+let sorte = posts.sort((a,b) => {
+return a.title.length - b.title.length
+})
+// Сортування -------------
 
-for(var i=0, tmp;i<posts.length-1;i++){
-for(var j=0;j<posts.length-1;j++){
-	if(posts[j]>posts[j+1]){
-		tmp=posts[j];
-		posts[j]=posts[j+1];
-		posts[j+1]=tmp;
-	}
-}
-}
-
-console.log(posts );
+console.log(sorte)
