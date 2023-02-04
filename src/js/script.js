@@ -2,7 +2,7 @@ let resp = {"data":[{"id":119,"attributes":{"title":" Шукаю няню у Л�
 
 console.log(resp.data);
 
-let filteredResp = resp.data.filter((cost) => {
+let filteredResp = resp.filter((cost) => {
   if (resp.data === "id") {
     return cost;
   }
